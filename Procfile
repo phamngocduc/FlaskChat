@@ -1,1 +1,1 @@
-web: gunicorn bot:app
+web: bundle exec rails server -p $PORT
